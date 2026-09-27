@@ -1,0 +1,297 @@
+<!DOCTYPE html>
+<html lang="pt-BR">
+
+<head>
+
+    <meta charset="UTF-8">
+
+    <meta
+        name="viewport"
+        content="width=device-width, initial-scale=1.0, maximum-scale=1.0, user-scalable=no"
+    >
+
+    <title>Lista de Presentes</title>
+
+    <style>
+
+        * {
+            margin: 0;
+            padding: 0;
+            box-sizing: border-box;
+        }
+
+        html,
+        body {
+            min-height: 100%;
+        }
+
+        body {
+            background: #eef8ff;
+            color: #405a70;
+            font-family: Arial, Helvetica, sans-serif;
+            padding: 25px 18px 40px;
+        }
+
+        .pagina {
+            width: 100%;
+            max-width: 600px;
+            margin: auto;
+        }
+
+        /* ==============================
+           TÍTULO
+        ============================== */
+
+        .titulo {
+            text-align: center;
+            color: #557b9d;
+            font-size: 28px;
+            margin-bottom: 8px;
+        }
+
+        .subtitulo {
+            text-align: center;
+            color: #708da5;
+            font-size: 15px;
+            line-height: 1.5;
+            margin-bottom: 25px;
+        }
+
+        /* ==============================
+           LISTA
+        ============================== */
+
+        .lista {
+            background: rgba(255, 255, 255, 0.90);
+            border: 1px solid #d8e6ef;
+            border-radius: 20px;
+            padding: 20px 25px;
+            box-shadow: 0 5px 18px rgba(80, 120, 150, 0.10);
+        }
+
+        .lista ul {
+            padding-left: 20px;
+        }
+
+        .lista li {
+            margin: 10px 0;
+            line-height: 1.4;
+            color: #536b7d;
+        }
+
+        /* ==============================
+           CATEGORIA LIVROS
+        ============================== */
+
+        .categoria-livros {
+            margin-top: 25px;
+            margin-bottom: 10px;
+            color: #557b9d;
+            font-size: 19px;
+            font-weight: bold;
+        }
+
+        /* ==============================
+           PIX
+        ============================== */
+
+        .pix {
+            margin-top: 25px;
+            padding: 18px;
+            text-align: center;
+
+            background: #f8fcff;
+            border: 1px solid #d8e6ef;
+            border-radius: 18px;
+
+            color: #536b7d;
+            line-height: 1.6;
+        }
+
+        .pix-titulo {
+            color: #557b9d;
+            font-size: 18px;
+            font-weight: bold;
+            margin-bottom: 8px;
+        }
+
+        .pix-numero {
+            font-size: 16px;
+            font-weight: bold;
+            color: #405a70;
+        }
+
+        .pix-nome {
+            font-size: 15px;
+            color: #668198;
+        }
+
+        /* ==============================
+           CARTINHAS
+        ============================== */
+
+        .observacao {
+            text-align: center;
+            margin-top: 22px;
+            color: #668198;
+            font-size: 14px;
+            line-height: 1.6;
+        }
+
+        .feito-mao {
+            text-align: center;
+            margin-top: 8px;
+            color: #557b9d;
+            font-weight: 600;
+        }
+
+        /* ==============================
+           BOTÃO VOLTAR
+        ============================== */
+
+        .voltar {
+            display: block;
+            width: fit-content;
+
+            margin: 28px auto 0;
+
+            padding: 12px 24px;
+
+            border-radius: 30px;
+
+            background: #dcecf7;
+            color: #557b9d;
+
+            text-decoration: none;
+            font-size: 15px;
+
+            border: 1px solid #c8dce9;
+
+            -webkit-tap-highlight-color: transparent;
+        }
+
+        .voltar:active {
+            transform: scale(0.97);
+        }
+
+    </style>
+
+</head>
+
+<body>
+
+    <main class="pagina">
+
+        <!-- TÍTULO -->
+
+        <h1 class="titulo">
+            ✨ Lista de Presentes ✨
+        </h1>
+
+
+        <!-- TEXTO -->
+
+        <p class="subtitulo">
+            A lista é apenas uma sugestão.
+            O mais importante é ter você comigo
+            nesse dia tão especial. 🩵
+        </p>
+
+
+        <section class="lista">
+
+            <!-- ITENS -->
+
+            <ul>
+
+                <li>Calças — tamanho 38</li>
+
+                <li>Blusas — tamanho P</li>
+
+                <li>Vestidos — tamanho 16</li>
+
+                <li>Bolsas</li>
+
+                <li>Acessórios</li>
+
+                <li>Calçados — tamanho 36</li>
+
+                <li>Hidratantes corporais</li>
+
+                <li>Perfumes</li>
+
+                <li>Body splash — fragrâncias suaves</li>
+
+            </ul>
+
+
+            <!-- LIVROS -->
+
+            <h2 class="categoria-livros">
+                📚 Livros
+            </h2>
+
+            <ul>
+
+                <li>Corações em Jogo</li>
+
+                <li>A Hipótese do Amor</li>
+
+                <li>Nem Todo Outono é Igual</li>
+
+                <li>Trilogia Powerless</li>
+
+                <li>Amor à Primeira Raiva</li>
+
+                <li>No Final Daquele Dia</li>
+
+            </ul>
+
+
+            <!-- PIX -->
+
+            <div class="pix">
+
+                <div class="pix-titulo">
+                    💙 Sugestão de PIX
+                </div>
+
+                <div class="pix-numero">
+                    (33) 98407-3224
+                </div>
+
+                <div class="pix-nome">
+                    Yasmim Félix Barbosa
+                </div>
+
+            </div>
+
+        </section>
+
+
+        <!-- CARTINHAS -->
+
+        <p class="observacao">
+            E uma coisa que eu amo muito:
+        </p>
+
+        <p class="feito-mao">
+            💌 Cartinhas e presentes feitos à mão.
+        </p>
+
+
+        <!-- VOLTAR DIRETAMENTE PARA O CONVITE -->
+
+        <a
+            class="voltar"
+            href="index.html#convite">
+
+            ← Voltar para o convite
+
+        </a>
+
+    </main>
+
+</body>
+
+</html>
