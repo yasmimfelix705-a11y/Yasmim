@@ -45,3 +45,19 @@ function abrirConvite() {
 
     }, 900);
 }
+document.addEventListener("DOMContentLoaded", function () {
+
+    if (window.location.hash === "#convite") {
+        const envelopeTela = document.getElementById("tela-envelope");
+        const conviteTela = document.getElementById("tela-convite");
+
+        if (envelopeTela) {
+            envelopeTela.style.display = "none";
+        }
+
+        if (conviteTela) {
+            conviteTela.style.display = "flex";
+        }
+    }
+
+});
